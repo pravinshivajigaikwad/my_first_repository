@@ -103,4 +103,5 @@ int main()
 	ptr->~MyClass();
 	delete []array;
 	cout<<"Main Exit"<<endl;
+	cout<<"Main Exit1"<<endl;
 }
