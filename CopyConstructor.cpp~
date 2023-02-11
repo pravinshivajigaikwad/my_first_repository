@@ -92,7 +92,6 @@ int main()
 	char *array=(char *)malloc(20*sizeof(char));
 	//int *array=(int *)malloc(20*sizeof(int));
 	cout<<"Main Started"<<endl;
-	cout<<"Main Started1"<<endl;
 	MyClass *ptr=new(&array[4]) MyClass(25);//placement of new opertor
 	MyClass *ptr1=new MyClass(30);
 	MyClass abc(10);
