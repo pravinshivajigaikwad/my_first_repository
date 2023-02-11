@@ -64,6 +64,10 @@ public:
 		cout<<"Destrcutor Called."<<endl;
 		delete[]ptr;
 	}
+	int getData()
+	{
+		return *ptr;
+	}
 
 };
 
@@ -85,6 +89,11 @@ MyClass& MyClass::operator=(const MyClass &obj)
 	for(int i=0;i<length;i++)ptr[i]=obj.ptr[i];
 	printf("MyClass  assignment operator called.%d \n",length);
 	return *this;
+}
+
+void print(const MyClass &obj)
+{
+	cout<<"Show data:"<<obj.getData()<<endl;
 }
 
 int main()
