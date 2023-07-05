@@ -10,5 +10,7 @@ int main()
 	std::cin>>b;
 	std::cout<<"Sum of a+b="<<a+b<<std::endl;
 	std::cout<<"Substraction of a-b="<<a-b<<std::endl;
+	std::cout<<"Multiplication of a*b="<<a*b<<std::endl;
+	std::cout<<"Division of a/b="<<a/b<<std::endl;
 	return 0;
 }
