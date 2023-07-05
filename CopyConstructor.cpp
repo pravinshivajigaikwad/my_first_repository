@@ -109,7 +109,7 @@ int main()
 	MyClass pqr(20);
 	pqr=xyz;
 	delete ptr1;
-	//delete ptr;This will crash app
+	delete ptr;//This will crash app
 	ptr->~MyClass();
 	delete []array;
 	cout<<"Main Exit"<<endl;
