@@ -9,5 +9,6 @@ int main()
 	std::cout<<"Enter second number"<<std::endl;
 	std::cin>>b;
 	std::cout<<"Sum of a+b="<<a+b<<std::endl;
+	std::cout<<"Substraction of a-b="<<a-b<<std::endl;
 	return 0;
 }
