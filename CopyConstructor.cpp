@@ -68,6 +68,7 @@ int main()
 	delete ptr;//This will crash app
 	ptr->~MyClass();
 	delete []array;
+	cout<<"New Line Added"<<endl;
 	cout<<"Main Exit"<<endl;
 	cout<<"Main Exit1"<<endl;
 }
