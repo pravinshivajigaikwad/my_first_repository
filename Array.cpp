@@ -13,6 +13,11 @@ bool compareInt(int a,int b)
 {
 	return a>b;
 }
+
+bool compareInt1(int a,int b)
+{
+	return a<b;
+}
 int main()
 {
 	Mystruct structArray[]={{10,25},{36,90},{5,6},{12,35},{30,52}};
